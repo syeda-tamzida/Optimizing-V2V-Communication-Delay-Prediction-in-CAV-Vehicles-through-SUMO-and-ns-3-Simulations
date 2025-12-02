@@ -6,10 +6,10 @@ This algorithm describes the procedure for simulating a 3x3 grid network with Co
 
 # Algorithm 1: SIMULATESUMO(N, G, P, T, Δt)
 Require: N = total number of vehicles,
-        G = grid size (3×3, 400 m),
-        P = number of platoons (6 platoons × 5 vehicles each),
-        T = 100 s (total simulation time),
-        Δt = 0.1 s (simulation step length)
+       - G = grid size (3×3, 400 m),
+       - P = number of platoons (6 platoons × 5 vehicles each),
+       - T = 100 s (total simulation time),
+       - Δt = 0.1 s (simulation step length)
 
 Ensure: Vehicle trajectories, platoon dynamics, emission data (fcd-output)
 
