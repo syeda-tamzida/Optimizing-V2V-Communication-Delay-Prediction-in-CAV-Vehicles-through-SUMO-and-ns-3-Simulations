@@ -1,4 +1,4 @@
-[DOI](https://dx.doi.org/10.2139/ssrn.5628790)
+[![DOI](https://zenodo.org/badge/1108465203.svg)](https://dx.doi.org/10.2139/ssrn.5628790)
 
 
 # Optimizing-V2V-Communication-Delay-Prediction-in-CAV-Vehicles-through-SUMO-and-ns-3-Simulations
