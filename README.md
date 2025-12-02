@@ -38,13 +38,24 @@ This algorithm describes the procedure for simulating a 3x3 grid network with Co
 - 11: Post-process to evaluate traffic performance and platoon stability
 - 12: Return trajectory data (fcd-output.xml)
 
+# Network Simulation in ns-3
+
+- Imported SUMO mobility trace (CSV) into ns-3 to emulate V2V/V2X communication.
+- Each vehicle mapped to a dedicated ns-3 node with ConstantPositionMobilityModel.
+- Updated vehicle positions dynamically at simulation runtime using SUMO trace scheduling.
+- Configured wireless communication with IEEE 802.11p standard at 5.9 GHz.
+- Implemented socket-based communication between every sender–receiver vehicle pair.
+- Simulated periodic packet transmissions (every 0.1 s) with embedded sender ID and timestamp.
+- Collected key performance parameters in output CSV: Time, SenderID, ReceiverID, Distance, SpeedSender, SpeedReceiver, PacketSize, RSSI, Delay, PacketLoss.
+
 # Result Section 
+
+
+
 **Compared RF, XGBoost, and CatBoost performance.**
 <p align="center">
 <img src="image/r2_bar_plot.pdf" align="center" width="75%"/>
 </p>
-
-
-• Identified Random Forest as the best-performing model (based on R² and RMSE).
+Identified Random Forest as the best-performing model (based on R² and RMSE).
 
   
