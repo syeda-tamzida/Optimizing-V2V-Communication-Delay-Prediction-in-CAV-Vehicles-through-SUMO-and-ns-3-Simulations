@@ -37,3 +37,14 @@ This algorithm describes the procedure for simulating a 3x3 grid network with Co
 - 10: Collect outputs: positions and speeds for all platoons
 - 11: Post-process to evaluate traffic performance and platoon stability
 - 12: Return trajectory data (fcd-output.xml)
+
+# Result Section 
+**Compared RF, XGBoost, and CatBoost performance.**
+<p align="center">
+<img src="" align="center" width="75%"/>
+</p>
+
+
+• Identified Random Forest as the best-performing model (based on R² and RMSE).
+
+  
