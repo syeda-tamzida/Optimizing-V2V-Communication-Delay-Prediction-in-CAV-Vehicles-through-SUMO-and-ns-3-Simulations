@@ -1,4 +1,4 @@
-[DOI](https://dx.doi.org/10.2139/ssrn.5628790)
+[![DOI](https://img.shields.io/badge/DOI-10.2139%2Fssrn.5628790-blue)](https://dx.doi.org/10.2139/ssrn.5628790)
 
 
 # Optimizing-V2V-Communication-Delay-Prediction-in-CAV-Vehicles-through-SUMO-and-ns-3-Simulations
