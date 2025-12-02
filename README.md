@@ -47,6 +47,12 @@ This algorithm describes the procedure for simulating a 3x3 grid network with Co
 - Implemented socket-based communication between every sender–receiver vehicle pair.
 - Simulated periodic packet transmissions (every 0.1 s) with embedded sender ID and timestamp.
 - Collected key performance parameters in output CSV: Time, SenderID, ReceiverID, Distance, SpeedSender, SpeedReceiver, PacketSize, RSSI, Delay, PacketLoss.
+# Feature Engineering and Preprocessing
+- Removed records with zero distance to avoid bias in delay estimation.
+- Dropped irrelevant fields (PacketSize, PacketLoss, SenderID, ReceiverID).
+- Selected final features: Time, Distance, SpeedSender, SpeedReceiver, RSSI.
+- Target variable: Delay (ms).
+- Normalized dataset and split into training (80%) and testing (20%).
 
 # Result Section 
 
