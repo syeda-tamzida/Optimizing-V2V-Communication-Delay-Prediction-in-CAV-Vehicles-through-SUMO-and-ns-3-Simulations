@@ -60,7 +60,7 @@ This algorithm describes the procedure for simulating a 3x3 grid network with Co
 
 **Compared RF, XGBoost, and CatBoost performance.**
 <p align="center">
-<img src="image/r2_bar_plot.pdf" align="center" width="75%"/>
+<img src="png_figure/r2_bar_plot.png" align="center" width="75%"/>
 </p>
 Identified Random Forest as the best-performing model (based on R² and RMSE).
 
