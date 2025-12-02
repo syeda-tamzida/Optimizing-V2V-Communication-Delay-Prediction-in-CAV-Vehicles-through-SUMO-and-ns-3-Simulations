@@ -9,7 +9,9 @@ This algorithm describes the procedure for simulating a 3x3 grid network with Co
 </p>
 
 
-
+<p align="center">
+<img src="image/whole_network.png" align="center" width="75%"/>
+</p>
 
 
 # Algorithm 1: SIMULATESUMO(N, G, P, T, Δt)
