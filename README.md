@@ -59,6 +59,12 @@ This algorithm describes the procedure for simulating a 3x3 grid network with Co
 
 
 **Compared RF, XGBoost, and CatBoost performance.**
+| Model             | MSE       | RMSE   | MAE   | R² Score | CV Mean RMSE | CV Std RMSE |
+| ----------------- | --------- | ------ | ----- | -------- | ------------ | ----------- |
+| **Random Forest** | 16,169.63 | 127.16 | 36.87 | 0.7868   | 172.84       | 211.91      |
+| **XGBoost**       | 39,308.54 | 198.26 | 59.26 | 0.4818   | 173.61       | 205.33      |
+| **CatBoost**      | 40,013.12 | 200.03 | 60.32 | 0.4725   | 172.36       | 204.43      |
+
 <p align="center">
 <img src="png_figure/r2_bar_plot.png" align="center" width="75%"/>
 </p>
