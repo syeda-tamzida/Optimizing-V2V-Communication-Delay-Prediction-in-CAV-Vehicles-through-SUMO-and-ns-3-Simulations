@@ -46,7 +46,7 @@ This algorithm describes the procedure for simulating a 3x3 grid network with Co
 - Configured wireless communication with IEEE 802.11p standard at 5.9 GHz.
 - Implemented socket-based communication between every sender–receiver vehicle pair.
 - Simulated periodic packet transmissions (every 0.1 s) with embedded sender ID and timestamp.
-- Collected key performance parameters in output CSV: Time, SenderID, ReceiverID, Distance, SpeedSender, SpeedReceiver, PacketSize, RSSI, Delay, PacketLoss.
+- Collected key performance parameters in output [CSV](ns3-output.csv): Time, SenderID, ReceiverID, Distance, SpeedSender, SpeedReceiver, PacketSize, RSSI, Delay, PacketLoss.
 # Feature Engineering and Preprocessing
 - Removed records with zero distance to avoid bias in delay estimation.
 - Dropped irrelevant fields (PacketSize, PacketLoss, SenderID, ReceiverID).
