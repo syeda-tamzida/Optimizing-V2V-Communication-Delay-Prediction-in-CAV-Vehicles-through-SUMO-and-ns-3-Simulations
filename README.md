@@ -77,12 +77,11 @@ Identified Random Forest as the best-performing model (based on R² and RMSE).
 
 If you use this repository in your research, please cite:
 ```bibtex
-@misc{akter2025v2v,
-    author       = {Syeda Tamzida Akter and Sayed Shahriar Islam Lamun},
-    title        = {Optimizing V2V Communication Delay Prediction in Connected and Autonomous Vehicles through SUMO and ns-3 Simulations},
-    year         = {2025},
-    howpublished = {SSRN},
-    note         = {Available at \url{http://dx.doi.org/10.2139/ssrn.5628790}}
+@article{tamzida2025optimizing,
+  title={Optimizing V2V Communication Delay Prediction in Connected and Autonomous Vehicles through SUMO and ns-3 Simulations},
+  author={Tamzida and Lamun},
+  journal={Available at SSRN: \url{http://dx.doi.org/10.2139/ssrn.5628790}},
+  year={2025}
 }
 ```
 
