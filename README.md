@@ -73,4 +73,17 @@ This algorithm describes the procedure for simulating a 3x3 grid network with Co
 </p>
 Identified Random Forest as the best-performing model (based on R² and RMSE).
 
+## Citing
+
+If you use this repository in your research, please cite:
+```bibtex
+@misc{akter2025v2v,
+    author       = {Syeda Tamzida Akter and Sayed Shahriar Islam Lamun},
+    title        = {Optimizing V2V Communication Delay Prediction in Connected and Autonomous Vehicles through SUMO and ns-3 Simulations},
+    year         = {2025},
+    howpublished = {SSRN},
+    note         = {Available at \url{http://dx.doi.org/10.2139/ssrn.5628790}}
+}
+```
+
   
