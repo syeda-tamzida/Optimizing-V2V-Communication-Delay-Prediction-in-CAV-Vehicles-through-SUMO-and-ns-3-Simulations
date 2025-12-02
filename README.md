@@ -5,7 +5,7 @@ Integration of SUMO mobility and ns3 wireless simulation is used to predict V2V 
 This algorithm describes the procedure for simulating a 3x3 grid network with Connected and Autonomous Vehicle (CAV) platoons in SUMO.
 
 <p align="center">
-<img src="docs/_static/actions.png" align="center" width="75%"/>
+<img src="CAVGITHUB.png" align="center" width="75%"/>
 </p>
 
 
