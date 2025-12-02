@@ -41,7 +41,7 @@ This algorithm describes the procedure for simulating a 3x3 grid network with Co
 # Result Section 
 **Compared RF, XGBoost, and CatBoost performance.**
 <p align="center">
-<img src="" align="center" width="75%"/>
+<img src="image/r2_bar_plot.pdf" align="center" width="75%"/>
 </p>
 
 
